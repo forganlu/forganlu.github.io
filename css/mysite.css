@@ -132,7 +132,7 @@ main{
 	background-image: url(../image/front1.png);
 	background-attachment:scroll;
 	background-position:top;
-	background-image:no-repeat;
+	background-repeat:no-repeat;
 	z-index: -1;
 
 }
