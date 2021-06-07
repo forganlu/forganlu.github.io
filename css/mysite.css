@@ -13,9 +13,7 @@ body {
 	height: 700px;
 */
 }
-header{
-	
-}
+
 
 .main{
 	margin: 0 auto;
@@ -131,11 +129,12 @@ main{
 	font-family: Arial;
 	font-size: 14px;
 	
-	background-image: url("../image/front1.png");
+	background-image: url(../image/front1.png);
 	background-attachment:scroll;
 	background-position:top;
-	background-repeat: no-repeat;
+	background-image:no-repeat;
 	z-index: -1;
+
 }
 
 footer {
@@ -170,7 +169,7 @@ a{
 }
 
 a:visited {
-	text-decorated: none;
+	text-decoration: none;
 	color:black;
 }
 a:hover {
@@ -183,7 +182,7 @@ a:hover {
 }
 
 a:activated {
-	text-decorated:none;
+	text-decoration:none;
 }
 
 /**************主页结束**************/
@@ -201,7 +200,7 @@ a:activated {
 	width:200px;
 	height: 254px;
 	margin-left: 0 auto;
-	background-image: url("../image/about/portfoliopic.JPG");
+	background-image: url(../image/about/portfoliopic.JPG);
 	position: fixed;
 }
 .aboutinfo{
