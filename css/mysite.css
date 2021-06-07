@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin:0 auto;
+	padding:0;
+	font-family: Helvetica, Arial, "sans-serif";
+/*
+	position: fixed;
+	background-image: url("image/front1.png");
+	background-attachment:scroll;
+	background-position:top;
+	background-repeat: no-repeat;
+	height: 700px;
+*/
+}
+header{
+	
+}
+
+.main{
+	margin: 0 auto;
+	z-index: -1;
+}
+.birdlogo{
+	position: fixed;
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 180px;
+	height: 110px;
+}
+
+.img-back:hover{
+	display: none;
+}
+
+.img-back:hover ~ .img-front {
+	display: block;
+}
+
+.img-front{
+	display: none;
+}
+
+.img-area {
+	position:relative;
+	height: 110px;
+	width: 180px;
+	margin: 0 auto;
+}
+.img-area img{
+	position: absolute;
+	left:0;
+	height: 110px;
+	width:180px;
+	transition: none;
+}
+
+/*
+.img-area img.img-front:hover{
+	opacity:0;
+	cursor:pointer;
+}
+*/
+/*********img-area-end**********/
+.lefthead {
+	list-style: none;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight:700;
+	float:left;		
+	margin-top: 150px;
+	margin-left: 30px;
+	position: fixed;
+	left: 30px;
+	top: 150px;
+	z-index: 1;
+	}
+.lefthead .secondmanu{
+	list-style: none;
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+}
+/*
+.lefthead>ul{
+	display: flex;
+    justify-content: space-between;
+}
+.lefthead>ul>li{
+    width: 10%;
+    position: relative;
+}
+.lefthead ul li a {
+	display: block;
+}
+.lefthead>ul>li>ul{
+	transition: height 2s ease;
+	overflow:hidden;
+	position:absolute;
+	height: 0;
+	
+}
+*/
+
+.tophead li{
+	list-style: none;
+	float:left;
+	font-family: Arial;
+	font-size: 14px;
+	width:70px;
+	height: 100%;
+	text-align:center;
+	z-index: 1;
+}
+
+.tophead1 {
+	margin-left:280px;
+	margin-top: 80px;
+	position:fixed;
+	z-index: 1;
+}
+article{
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+}
+
+main{
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: Arial;
+	font-size: 14px;
+	
+	background-image: url("../image/front1.png");
+	background-attachment:scroll;
+	background-position:top;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+footer {
+	font-family: Arial;
+	font-size: 12px;
+	margin-bottom: 20px;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	z-index:1;
+	
+}
+.bgp {
+	width:1200px;
+	height:700px;
+	margin:0 auto;
+/*
+	position:relative;
+	background-image: url("image/front1.png");
+	background-attachment:scroll;
+	background-position:top;
+	background-repeat: no-repeat;
+*/
+	z-index: -1;
+}
+
+/***************a**************/
+
+a{
+	text-decoration-line: none;
+	color:black;
+}
+
+a:visited {
+	text-decorated: none;
+	color:black;
+}
+a:hover {
+	color:chartreuse;
+	font-style:italic;
+	font-style:oblique;
+	cursor:pointer;
+	font-weight:500;
+	text-decoration:line-through;
+}
+
+a:activated {
+	text-decorated:none;
+}
+
+/**************主页结束**************/
+.about{
+	margin: 0 auto;
+	width:1200px;
+	height: 1000px;
+	padding-top:200px;
+	padding-left: 300px;
+	
+/*	position:relative;*/
+}
+.portfoliopic{
+	float:left;
+	width:200px;
+	height: 254px;
+	margin-left: 0 auto;
+	background-image: url("../image/about/portfoliopic.JPG");
+	position: fixed;
+}
+.aboutinfo{
+	float: left;
+	width: 800px;
+	height:400px;
+	margin-left:220px;
+	padding-top:5px;
+	line-height: 5px;
+	position: fixed;
+}
+
+
+/**************about结束**************/
+
+.writingfront {
+	width: 600px;
+	height:400px;
+	margin-left:50px;
+	padding-top:5px;
+	line-height: 14px;
+	position: fixed;
+}
+.writingfront-writing {
+	background: rgba(255,255,255,0.7);
+	width: 600px;
+	height:1000px;
+	margin-left:50px;
+	padding-top:5px;
+	line-height: 18px;
+	position: relative;
+}
