@@ -109,6 +109,7 @@ main{
 	min-width: 100vh;*/
 	padding-bottom: 0px;
 	z-index: -1;
+	opacity:0.6；
 }
 
 footer {
@@ -167,7 +168,7 @@ a:activated {
 	margin: 0 auto;
 	min-width:100vh;
 	min-height: 100vh;
-	text-align: center;
+	/*text-align: center;*/
 	padding-top:200px;
 	padding-left: 300px;
 	
@@ -179,15 +180,17 @@ a:activated {
 	margin-left: 0 auto;
 	background-image: url(../image/about/portfoliopic.JPG);
 	position: fixed;
+	z-index: 1;
 }
 .aboutinfo{
 	float: left;
-	width: 800px;
+	width: 0 auto;
 	height:400px;
 	margin-left:220px;
 	padding-top:5px;
 	line-height: 5px;
 	position: fixed;
+	z-index: 1;	
 }
 
 
