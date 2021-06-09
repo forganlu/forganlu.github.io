@@ -5,6 +5,53 @@
 <link rel="stylesheet" href="../css/mysite.css">
 <title>Ganlu</title>
 <link rel="icon" type="image/x-icon" href="../ICON.png" />
+</SCRIPT>
+<!--onselectstart:禁止选中 oncontextmenu:右键弹出版权 event.keyCode==27:按esc键表示放弃Esc键阻止网页继续载入,也就是说你按ESC键网页还是继续加载-->
+<body onselectstart="return false;" oncontextmenu="alert('Error');return false;" onkeydown="if(event.keyCode==27) return false;">
+<script type="text/javascript">
+document.onmousedown = click;  //绑定禁用鼠标右键事件
+document.onkeydown = ctrl_key; //绑定禁用键盘事件
+function click() {
+if (event.button == 2)      //单击的鼠标键为右键
+{
+//alert('Please respect intellectual property.请尊重本网站版权。');
+return false;
+}
+}
+function ctrl_key() {
+if (event.keyCode == 17) {                          //禁用CTRL+S 保存网页代码
+window.alert("Error");
+return false;
+}
+if (event.keyCode == 123) {                         //禁用F12查看源代码
+alert('Error');
+return false;
+}
+}
+</script>
+<!---------密码需要------------>
+
+<script type="text/javascript">   
+	function password() {   
+	var testV = 1;   
+	var pass1 = prompt('Password request','');   
+	while (testV < 3) {   
+	if (!pass1)   
+	history.go(-1);   
+	if (pass1 == "0525") {//初始密码123   
+	alert('Password correct');   
+	break;   
+	}   
+	testV+=1;   
+	var pass1 =   
+	prompt('Password request');   
+	}   
+	if (pass1!="password" & testV ==3)   
+	history.go(-1);   
+	return " ";   
+	}   
+	document.write(password());   
+	</script> 
 </head>
 	
 <body>
