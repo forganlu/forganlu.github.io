@@ -169,7 +169,7 @@ a:activated {
 	min-width:100vh;
 	min-height: 100vh;
 	/*text-align: center;*/
-	padding-top:200px;
+	padding-top:150px;
 	padding-left: 300px;
 	
 }
@@ -209,18 +209,19 @@ a:activated {
 
 .writingfront {
 	width: 600px;
-	height:400px;
+	height:50px;
 	margin-left:50px;
-	padding-top:5px;
 	line-height: 16px;
 	position: fixed;
+	z-index: 1;	
 }
 .writingfront-writing {
-	background: rgba(255,255,255,0.7);
-	width: 600px;
-	height:1000px;
+	background: rgba(255,255,255,0.8);
+	width: 750px;
+	height:450px;
 	margin-left:50px;
-	padding-top:5px;
+	margin-top: 55px;
 	line-height: 18px;
-	position: relative;
+	position: fixed;
+	overflow:auto;
 }
