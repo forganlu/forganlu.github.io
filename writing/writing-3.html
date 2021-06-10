@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../css/mysite.css">
+<title>Ganlu</title>
+<link rel="icon" type="image/x-icon" href="../ICON.png" />
+</SCRIPT>
+<!--onselectstart:禁止选中 oncontextmenu:右键弹出版权 event.keyCode==27:按esc键表示放弃Esc键阻止网页继续载入,也就是说你按ESC键网页还是继续加载-->
+<body onselectstart="return false;" oncontextmenu="alert('Error');return false;" onkeydown="if(event.keyCode==27) return false;">
+<script type="text/javascript">
+document.onmousedown = click;  //绑定禁用鼠标右键事件
+document.onkeydown = ctrl_key; //绑定禁用键盘事件
+function click() {
+if (event.button == 2)      //单击的鼠标键为右键
+{
+//alert('Please respect intellectual property.请尊重本网站版权。');
+return false;
+}
+}
+function ctrl_key() {
+if (event.keyCode == 17) {   //禁用CTRL+S 保存网页代码
+window.alert("Error");
+return false;
+}
+if (event.keyCode == 123) {     //禁用F12查看源代码
+alert('Error');
+return false;
+}
+}
+</script>
+<!---------密码需要------------>
+<!---
+<script type="text/javascript">   
+	function password() {   
+	var testV = 1;   
+	var pass1 = prompt('Password request','');   
+	while (testV < 3) {   
+	if (!pass1)   
+	history.go(-1);   
+	if (pass1 == "0525") {//初始密码123   
+	alert('Password correct');   
+	break;   
+	}   
+	testV+=1;   
+	var pass1 =   
+	prompt('Password request');   
+	}   
+	if (pass1!="password" & testV ==3)   
+	history.go(-1);   
+	return " ";   
+	}   
+	document.write(password());   
+	</script> -->
+</head>
+	
+<body>
+	
+<!--------------------birdlogo--------------------->
+
+<div class="birdlogo"> 
+	<figure>
+		<div class="img-area">
+			<a href="../index.html">
+				<img src="../image/logo1.png" alt="" class="img-back">
+				<img src="../image/logo2.png" alt="" class="img-front">
+			</a>
+		</div>
+		
+	</figure>
+	
+</div>
+<!---------------- bird logo end ------------------>
+
+
+<main>
+<div class="bbox">
+	
+	<!-----------------------tophead----------------------->
+	<div class="tophead1">
+		<ul class="tophead">
+			<li><a href="../index-painting.html">绘画</a></li>
+			<li><a href="../index-photography.html">摄影</a></li>
+			<li><a href="../index-writing.html">文字</a></li>
+			<li><a href="../index-about.html">关于</a></li>
+			<li><a href="../index-contact.html">联络</a></li>
+		</ul>
+	</div>
+	<!------------------------lefthead--------------------->
+	<div  class="lefthead1">
+		<ul class="lefthead">
+			<li><a href="../index-painting.html">painting</a></li>
+			<li><a href="../index-photography.html">photography</a></li>
+			<li><a href="../index-writing.html">writing</a>
+				<ul class="secondmanu" list-style:none;>
+					<li><a href="../writing/writing-1.html">01. 2018.12.30 《马鹿》</a></li>
+					<li><a href="../writing/writing-2.html">02. 2019.01.09 《名字》</a></li>
+					<li><a href="../writing/writing-3.html"><strong> 03. 2019.05.24 《旅馆》</strong></a></li>
+					<li><a href="../writing/writing-4.html">04. 2019.10.22 《马鹿之死》</a></li>
+					<li><a href="../writing/writing-5.html">05. 2019.11.05 《美丽新世界》</a></li>
+					<li><a href="../writing/writing-6.html">06. 2019.12.04 《记忆空间》</a></li>
+					<li><a href="../writing/writing-7.html">07. 2020.02.14 《温暖的海》</a></li>
+					<li><a href="../writing/writing-8.html">08. 2020.02.17 《燕子啊燕子》</a></li>
+					<li><a href="../writing/writing-9.html">09. 2020.02.20 《末日的前好几天》</a></li>
+					<li><a href="../writing/writing-10.html">10. 2020.05.29 《吃金鱼》</a></li>
+					<li><a href="../writing/writing-11.html">11. 2020.10.17 《1810号房间》</a></li>
+				</ul>
+			</li>
+			<li><a href="../index-about.html">about</a></li>
+			<li><a href="../index-contact.html">contact</a></li>
+		</ul>
+	</div>	
+	<div class="about">
+		<div class="writingfront">
+			<span style="background-color:rgb(60, 255, 0)" >Chinese version only.<br />
+			只用于中文版本。<br />
+			<p>&nbsp;</p>
+			
+		</span>
+	</div>
+	<div class="writingfront-writing">
+		<span style="background-color:rgb(255, 0, 0)" >Editing.<br />
+			编辑中。<br />
+			<p>&nbsp;</p>
+		<!--
+		<h3>《马鹿之死》</h3>
+		<p>没有什么多余的可说，事情很简单。那就是，她觉得自己是时候该死了。</p>
+		<p>&nbsp;</p>
+		<p>“我从俄狄普修司的胃里生出来，之后被波拉尼奥吃进了胃里。”马鹿说，然后她写进一本小记事本。今天的天气没有什么特别的，没有云，没有风，也不是蓝色，就是灰灰的。这种天气让人想往悬崖里跳下去。马鹿躺在床上，她刚刚听到她的朋友说自己有了重度的抑郁症和重度的焦虑症，她没有回应，她不想因为多回应了一点就和这个病沾染上关系。不过，这两种病和今天的天气很般配。</p>
+		<p>马鹿又在日记上写：“我决定要死了。”</p>
+		<p>这个日记被她的家人找到了，他们像是发现了什么重大秘密一般，马上开了一个家庭会议，马鹿在会议上没有发言，她一心想着吃甜的东西。他们终于问了：“你觉得我们不爱你了吗？”马鹿没有说话。后来这个会议上的所有讨论，都没有马鹿，马鹿就偷偷地离开了。可能这就是为什么一直以来马鹿都觉得家人在妨碍她吧。还记得吗？马鹿只是一个组装合成的人，她长大了，她不该有自己的思想。真可惜，看着别人家的机器人，哪个不是过着幸福快乐的日子。实际上对于马鹿来说，有吃有喝是不够的。</p>
+		<p>&nbsp;</p>
+		<p>她已经有好长一段时间没有看书了，她开始觉得自己慢慢地在变蠢。</p>
+		<p>不过她一直在计划如何逃离这个家，快乐地死去。上几个世纪的机器人很容易能自杀，他们知道自己的芯片在哪里，当爸妈不在家的时候，就能用螺丝刀扭开，也许在大脑上，也许在胸口，也许在后颈，找到那个芯片，然后捏碎。由于太多机器人就这么自杀了，一些机器人公司不得不发明更可控的，难以自我毁灭的程序，所以现在的机器人都很容易快乐起来。但马鹿没有，她决定要死了可是她想不起来自己的芯片在哪里。她用了很长时间去想，洗澡的时候，画画的时候，写作的时候，她甚至忘记了说明书放在哪里了。不过她的朋友们都相信是她的爸妈在她还是婴儿的时候勾选了什么设置，才导致她想不起来的。后来她意识到，自己才是那个有遗忘病的人。</p>
+		<p>不论如何，毁坏芯片不是唯一的办法。朋友们告诉她，杀了父母也是一种办法，因为一个机器人的监护人死了，公司就会把这个机器人收回然后翻新，重新编程，这样就成了另一个机器人，之前的记忆都会被抹去。相当于，死了。</p>
+		<p>&nbsp;</p>
+		<p>世界上也不少弑父弑母的例子，都是一些心思缜密的人做的。马鹿开始寻找这样的纪录片和电影，可是没有这样的纪录片，电影里的片段都很蠢。而且她知道电影里的都是假的。</p>
+		<p>几天过去了，一点进展也没有。她的计划都太主观了，她一点也不了解自己的父母。</p>
+		<p>&nbsp;</p>
+		<p>她想，也许是自己的问题。</p>
+		<p>也许人类太难杀了。</p>
+		<p>&nbsp;</p>
+		<p>俄狄浦斯就是那个杀掉了自己的父亲的人。如果说马鹿天生就有和俄狄浦斯一样的结局，那么，现在也不至于想不出办法。俄狄浦斯世界里的神是罪恶的，现实世界中的神也是。马鹿不想相信这些神啊鬼啊什么的，她更在意的是生和死，不过喜与悲对她来说也是重要的。她没有能够支持自己的力量了，她开始写遗书，她希望在遗书里不怪罪任何人。但是每个人都不是善良的。</p>
+		<p>当然谁都希望以一种优雅的方式死去，安乐死，或者是安静地睡死。可是这些都没有办法在马鹿身上实现，因为她是个机器人。她不要求这么多，她只要求能够在她的父母发现她每天在悄悄往他们的食物里加药片前死掉。家里的药，感冒药，头孢药，消炎药，安慰剂，抗抑郁药还有各种奇奇怪怪的药，都是他们买来给马鹿吃的。不过，她不满足于自己一个人吃。</p>
+		<p>&nbsp;</p>
+		<p>一天晚上，她没睡着，她走到厨房，想煮点麦片喝。无意间看到菜刀安静地挂在置物架上。她拿起一把，慢慢地走进了父母的房间，他们在熟睡。</p>
+		<p>“醒醒吧！醒醒吧！我要杀了你们！”马鹿像是疯了一样。他们被惊醒了，开始惊慌地尖叫起来，说不出什么话。马鹿慢慢地走向床沿“尖叫！”“尖叫！”“尖叫！”…… 马鹿疯狂地拿着菜刀砍他们的被子，他们被被吓得满屋跑。黑暗中他们透过一些光看到这个人原来是马鹿。一开始他们气坏了，后来用了很大的力气把她制服了。晚上三四点，他们给机器人公司打了电话，说马鹿试图谋杀他们。这样的事第二天就上了新闻，接着他们家门口聚集了各种各样的媒体，每时每刻都在。</p>
+		<p>后来马鹿被他们锁在了房间，好久都不能出来。她什么也做不了，不过能够从门缝里听到家里有人来，他们在谈话，后来又走了。几乎连着一个星期都是这样。</p>
+		<p>&nbsp;</p>
+		<p>“亲爱的朋友们：我死了。我想念自己了，我必须用这一种方法去寻找我自己。”她的遗书写着。</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		甘露<br />
+		2019.05.24
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p> --->
+
+	</div>
+	</div>
+	
+		
+</div>
+
+
+</main>
+
+<footer>
+	<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>, Ganlu</p>
+</footer>
+	
+
+<!---------------frontpic------------>
+
+	
+	
+
+	
+	
+</body>
+</html>
