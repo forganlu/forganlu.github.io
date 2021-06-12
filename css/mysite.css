@@ -57,7 +57,6 @@ body {
 .lefthead {
 	list-style: none;
 	font-family: Arial;
-	font-weight:700;
 	float:left;		
 	margin-top: 300px;
 	margin-left: 30px;
@@ -81,8 +80,8 @@ body {
 	list-style: none;
 	float:left;
 	font-family: Arial;
-	font-size: 14px;
-	width:70px;
+	font-size: 12px;
+	width: 130px;
 	height: 100%;
 	text-align:center;
 	z-index: 1;
@@ -92,14 +91,14 @@ body {
 
 article{
 	font-family: Helvetica, Arial, "sans-serif";
-	font-size: 14px;
+	font-size: 12px;
 }
 
 main{
 	margin: 0 auto;
 	padding: 0 auto;
 	font-family: Arial;
-	font-size: 14px;
+	font-size: 12px;
 	background-image: url(../image/front1.png);
 	background-attachment:scroll;
 	background-position:top;
@@ -115,9 +114,8 @@ main{
 	margin: 0 auto;
 	padding: 0 auto;
 	font-family: Arial;
-	font-size: 14px;
+	font-size: 12px;
 	background-image: url(../image/front2-1.png);
-	/*background-image: url(../image/front1.png);*/
 	background-attachment:scroll;
 	background-position:top;
 	background-repeat: no-repeat;
@@ -196,7 +194,7 @@ a:activated {
 	width:200px;
 	height: 254px;
 	margin-left: 0 auto;
-	background-image: url(../image/about/portfoliopic.JPG);
+	/* background-image: url(../image/about/portfoliopic.JPG);*/
 	position: fixed;
 	z-index: 1;
 }
@@ -205,7 +203,7 @@ a:activated {
 	width:200px;
 	height: 254px;
 	margin-left: 0 auto;
-	background-image: url(../image/about/about.jpg);
+	/* background-image: url(../image/about/about.jpg);*/
 	position: fixed;
 	z-index: 1;
 }
@@ -216,7 +214,7 @@ a:activated {
 	margin-left:220px;
 	margin-bottom: 50px;
 	border-bottom: 20px;
-	line-height: 16px;
+	line-height: 14px;
 	position: fixed;
 	z-index: 1;	
 }
