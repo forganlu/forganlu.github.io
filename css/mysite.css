@@ -99,7 +99,7 @@ main{
 	padding: 0 auto;
 	font-family: Arial;
 	font-size: 12px;
-	background-image: url(../image/front1.png);
+	/*background-image: url(../image/front1.png);*/
 	background-attachment:scroll;
 	background-position:top;
 	background-repeat: no-repeat;
@@ -129,9 +129,9 @@ main{
 
 footer {
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 10px;
 	margin:0;
-	text-align: center;
+	text-align:center;
 	padding:0;
 	clear: both;
 	width: 100%;
@@ -139,6 +139,20 @@ footer {
 	bottom: 0;
 	position: fixed;
 	
+}
+.label{
+	font-family: Arial;
+	font-size: 12px;
+	
+	vertical-align: middle;
+	padding-left: 30px;
+	margin-left: 80px;
+	height: 38px;
+	clear: both;
+	width: 100%;
+	z-index:1;
+	bottom: 0;
+	position: fixed;
 }
 .bgp {
 	max-width:1200px;
@@ -189,12 +203,12 @@ a:activated {
 	
 }
 /***************** 主页照骗 *************/
-.portfoliopic{
+/***.portfoliopic{
 	float:left;
 	width:200px;
 	height: 254px;
 	margin-left: 0 auto;
-	/* background-image: url(../image/about/portfoliopic.JPG);*/
+	/* background-image: url(../image/about/portfoliopic.JPG);
 	position: fixed;
 	z-index: 1;
 }
@@ -203,15 +217,16 @@ a:activated {
 	width:200px;
 	height: 254px;
 	margin-left: 0 auto;
-	/* background-image: url(../image/about/about.jpg);*/
+	/* background-image: url(../image/about/about.jpg);
 	position: fixed;
 	z-index: 1;
 }
+***/
 .aboutinfo{
 	float: left;
 	width: 0 auto;
 	height:100%;
-	margin-left:220px;
+	margin-left:0px;
 	margin-bottom: 50px;
 	border-bottom: 20px;
 	line-height: 14px;
@@ -232,11 +247,11 @@ a:activated {
 }
 .writingfront-writing {
 	background: rgba(255,255,255,0.8);
-	width: 750px;
-	height:450px;
+	width: 660px;
+	height:auto;
 	margin-left:50px;
 	margin-top: 55px;
 	line-height: 18px;
-	position: fixed;
+	position: relative;
 	overflow: auto;
 }
