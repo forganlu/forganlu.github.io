@@ -154,19 +154,6 @@ footer {
 	bottom: 0;
 	position: fixed;
 }
-.bgp {
-	max-width:1200px;
-	height:700px;
-	margin:0 auto;
-/*
-	position:relative;
-	background-image: url("image/front1.png");
-	background-attachment:scroll;
-	background-position:top;
-	background-repeat: no-repeat;
-*/
-	z-index: -1;
-}
 
 /***************a**************/
 
@@ -251,7 +238,15 @@ a:activated {
 	height:auto;
 	margin-left:50px;
 	margin-top: 55px;
-	line-height: 18px;
+	line-height: 16px;
 	position: relative;
 	overflow: auto;
+}
+.container {
+	width: 660px;
+	height:50px;
+	margin-left:50px;
+	line-height: 16px;
+	position: relative;
+	z-index: -1;
 }
