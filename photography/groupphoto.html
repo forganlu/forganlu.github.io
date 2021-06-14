@@ -5,7 +5,29 @@
 <link rel="stylesheet" href="../css/mysite.css">
 <title>Ganlu</title>
 <link rel="icon" type="image/x-icon" href="../ICON.png" />
+<!---------密码需要------------>
 
+<script type="text/javascript">   
+	function password() {   
+	var testV = 1;   
+	var pass1 = prompt('Password request','');   
+	while (testV < 2) {   
+	if (!pass1)   
+	history.go(-1);   
+	if (pass1 == "g") {//初始密码123   
+	alert('Password correct');   
+	break;   
+	}   
+	testV+=1;   
+	var pass1 =   
+	prompt('Password request');   
+	}   
+	if (pass1!="password" & testV ==2)   
+	history.go(-1);   
+	return " ";   
+	}   
+	document.write(password());   
+	</script> 
 </head>
 	
 <body>
