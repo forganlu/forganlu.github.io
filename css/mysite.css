@@ -226,7 +226,7 @@ a:activated {
 
 .writingfront {
 	width: 660px;
-	height:50px;
+	height:100%;
 	margin-left:50px;
 	line-height: 16px;
 	position: fixed;
