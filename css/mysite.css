@@ -101,13 +101,6 @@ main{
 	padding: 0 auto;
 	font-family: Arial;
 	font-size: 12px;
-	/*background-image: url(../image/front1.png);*/
-	background-attachment:scroll;
-	background-position:top;
-	background-repeat: no-repeat;
-	/*position: relative;
-	min-height: 100vh;
-	min-width: 100vh;*/
 	padding-bottom: 0px;
 	z-index: -1;
 	opacity:0.6；
@@ -119,14 +112,14 @@ main{
 	font-size: 12px;
 	padding-bottom: 0px;
 
-	/*background-image: url(../image/front2-1.png);*/
+	/*background-image: url(../image/front2-1.png);
 	background-attachment:scroll;
 	background-position:top;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover; 
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 
 	z-index: -1;
 	opacity:0.6；
@@ -192,28 +185,10 @@ a:activated {
 	/*text-align: center;*/
 	padding-top:150px;
 	padding-left: 300px;
+	z-index:1;
 	
 }
-/***************** 主页照骗 *************/
-/***.portfoliopic{
-	float:left;
-	width:200px;
-	height: 254px;
-	margin-left: 0 auto;
-	/* background-image: url(../image/about/portfoliopic.JPG);
-	position: fixed;
-	z-index: 1;
-}
-.portfoliopic1{
-	float:left;
-	width:200px;
-	height: 254px;
-	margin-left: 0 auto;
-	/* background-image: url(../image/about/about.jpg);
-	position: fixed;
-	z-index: 1;
-}
-***/
+
 .aboutinfo{
 	float: left;
 	width: 0 auto;
@@ -254,4 +229,6 @@ a:activated {
 	line-height: 16px;
 	position: relative;
 	z-index: -1;
+	width: auto;
+	max-width: 1000px;
 }
