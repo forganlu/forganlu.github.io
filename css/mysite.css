@@ -182,7 +182,6 @@ a:activated {
 	margin: 0 auto;
 	min-width:100vh;
 	min-height: 100vh;
-	/*text-align: center;*/
 	padding-top:150px;
 	padding-left: 300px;
 	z-index:1;
@@ -229,6 +228,5 @@ a:activated {
 	line-height: 16px;
 	position: relative;
 	z-index: -1;
-	width: auto;
-	max-width: 1000px;
+	
 }
