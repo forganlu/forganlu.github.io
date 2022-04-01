@@ -216,7 +216,7 @@ a:activated {
 	width: 660px;
 	height:auto;
 	margin-left:50px;
-	margin-top: 55px;
+	margin-top: auto;
 	line-height: 16px;
 	position: relative;
 	overflow: auto;
